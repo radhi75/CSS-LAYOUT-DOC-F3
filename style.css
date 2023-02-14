@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header>img{
+    width: 200px;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1%;
+    
+}
+.nav-list{
+    display: flex;
+    gap:20px;
+    color: grey;
+}
+nav:first-child{
+    color: #00b39b;
+}
+#first{
+    margin: 2%;
+    text-align: center;
+    margin:0 18%;
+}
+.first-para{
+    display: flex;
+    text-align: start;
+    gap: 30px;
+}
+h1{
+    color: #00b39b;
+    font-family: 'Inter', sans-serif;
+    font-size:xx-large;
+    font-style: initial;
+    margin: 2%;
+}
+.card:first-child{
+    background-color: #00ccb1;
+    margin: 1%;
+    padding: 1%;
+    color: white ;
+    width: 300px;
+    height: 350px;
+    border-radius: 10px;
+    line-height: 2;
+}
+.card>h1{
+    margin: 0% !important;
+    color: white !important;
+}
+.choose{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 40%;
+    text-decoration: underline;
+}
+
+.card:nth-child(2n) {
+    background-color: #3d83df;
+    margin: 1%;
+    padding: 1%;
+    color: white;
+    width: 300px;
+    height: 350px;
+    border-radius: 10px;
+    line-height: 2;
+}
+.card:last-child {
+    background-color: #1b2734;
+    margin: 1%;
+    padding: 1%;
+    color: white;
+    width: 300px;
+    height: 350px;
+    border-radius: 10px;
+    line-height: 2;
+}
+.choix{
+    display: flex;
+        align-items: center;
+        justify-content: flex-start;
+      
+        text-decoration: underline;
+}
+#cards{
+    margin:10% 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#second{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 4%;
+}
+#second>img{
+    width: 100px;
+    filter: grayscale(1);
+}
+#green{
+    height: 100vh;
+    background-color: #e5faf8;
+    background-image: url("https://www.docplanner.com/img/logo.png");
+    background-repeat: no-repeat;
+    background-position: 0 135%;
+    display: flex;
+    justify-content: space-around;
+}
+.green-intro{
+    padding: 10%;
+    color: grey;
+}
+.cardd{
+    background-color: white;
+    color: grey;
+    margin: 1%;
+    width: 200px;
+    text-align: center;
+    height: 250px;
+    padding: 1%;
+    border-radius: 5px;
+    line-height: 1.5;
+    
+}
+.cardd>h1{
+    font-size: medium;
+}
+.green-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.cardd:first-child {
+   margin-top: 10%;
+   margin-bottom: 0%;
+}
+.cardd:nth-child(3n){
+    margin-top: -13%;
+}
+.cardd:last-child{
+    margin-top: -20%;
+}
